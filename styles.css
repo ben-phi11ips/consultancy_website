@@ -1,19 +1,28 @@
 :root {
   --apex-blue: #11818A;
-  --apex-blue-soft: #e4f4f5;
+  --apex-blue-soft: #e2f4f5;
+
   --apex-bg: #f5f8f5;
   --apex-text: #2e2e2e;
   --apex-muted: #3d3d3d;
   --apex-muted-blue: #4f6465;
-  --apex-border: rgba(63, 130, 133, 0.16);
-  --apex-border-soft: rgba(63, 130, 133, 0.12);
+
+  --apex-border: rgba(17, 129, 138, 0.16);
+  --apex-border-soft: rgba(17, 129, 138, 0.12);
+
   --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   --radius-card: 18px;
   --radius-mobile: 14px;
+
   --section-pad: clamp(2.5rem, 5vw, 4rem) 1rem;
   --section-pad-sm: clamp(2rem, 4vw, 3rem) 1rem;
   --hero-pad: clamp(2.75rem, 6vw, 5rem) 1.5rem;
-  --hero-bg: linear-gradient(180deg, var(--apex-blue-soft) 0%, var(--apex-bg) 100%);
+
+  --hero-bg: linear-gradient(
+    180deg,
+    var(--apex-blue-soft) 0%,
+    var(--apex-bg) 100%
+  );
 }
 
 *, *::before, *::after { box-sizing: border-box; }
