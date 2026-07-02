@@ -1,6 +1,7 @@
 :root {
   --apex-blue: #11818A;
-  --apex-blue-soft: #e2f4f5;
+  --apex-blue-hover: #0D6F77;
+  --apex-blue-soft: #E2F4F5;
 
   --apex-bg: #f5f8f5;
   --apex-text: #2e2e2e;
@@ -9,6 +10,9 @@
 
   --apex-border: rgba(17, 129, 138, 0.16);
   --apex-border-soft: rgba(17, 129, 138, 0.12);
+
+  --apex-divider: rgba(17, 129, 138, 0.14);
+  --apex-divider-soft: rgba(17, 129, 138, 0.18);
 
   --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   --radius-card: 18px;
@@ -233,7 +237,7 @@ footer a { color: #ffffff; }
 }
 
 .button:hover {
-  background: #7f997f;
+  background: var(--apex-blue-hover);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
@@ -336,7 +340,7 @@ footer a { color: #ffffff; }
 
 .site-cta-section {
   background: #ffffff;
-  border-top: 1px solid rgba(63, 130, 133, 0.14);
+  border-top: 1px solid var(--apex-divider);
   padding: var(--section-pad);
 }
 
@@ -712,7 +716,7 @@ footer a { color: #ffffff; }
 .testimonial-page-card footer {
   margin-top: 1.25rem;
   padding-top: 1rem;
-  border-top: 1px solid #d5e7e8;
+  border-top: 1px solid var(--apex-divider-soft);
   background: transparent;
   text-align: left;
 }
