@@ -920,7 +920,7 @@ footer a { color: #ffffff; }
 .testimonial-page-card footer strong { color: var(--apex-text); }
 
 .testimonial-logo-wrap {
-  min-height: 64px;
+  min-height: 96px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -929,8 +929,8 @@ footer a { color: #ffffff; }
 
 .testimonial-logo {
   display: block;
-  max-width: 170px;
-  max-height: 58px;
+  max-width: 255px;
+  max-height: 87px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -1353,7 +1353,7 @@ footer a { color: #ffffff; }
     height: 115px;
   }
 
-  .testimonial-logo { max-width: 160px; }
+  .testimonial-logo { max-width: 240px; }
 
   .publication-stat-card .credibility-number,
   .publication-stat-label,
