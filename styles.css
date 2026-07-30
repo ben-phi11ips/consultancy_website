@@ -470,7 +470,7 @@ footer a { color: #ffffff; }
   width: 100%;
   height: clamp(216px, 21.6vw, 306px);
   object-fit: cover;
-  object-position: right center;
+  object-position: center center;
 }
 
 .home-hero-image-title-wrap::before {
